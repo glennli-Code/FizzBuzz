@@ -4,9 +4,9 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
-        loop = 1;
+        int loop = 1;
         while (loop < 100) {
-            doFizzBuzz(i);
+            doFizzBuzz(loop);
             loop++;
         }
     }
